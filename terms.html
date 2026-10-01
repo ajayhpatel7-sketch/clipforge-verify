@@ -1,0 +1,100 @@
+<title>ClipForge Terms</title>
+<style>
+  :root {
+    --ink: #1a1a2e;
+    --ink-soft: #4a4a68;
+    --paper: #fafaf8;
+    --paper-raised: #ffffff;
+    --rule: #e2e2e8;
+    --accent: #6454e8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #eceaf5;
+      --ink-soft: #a8a6c0;
+      --paper: #16151f;
+      --paper-raised: #1e1d2b;
+      --rule: #2e2d3e;
+      --accent: #a99bff;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #eceaf5;
+    --ink-soft: #a8a6c0;
+    --paper: #16151f;
+    --paper-raised: #1e1d2b;
+    --rule: #2e2d3e;
+    --accent: #a99bff;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding-inline: 20px;
+    padding-block: 48px;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    padding: 40px clamp(20px, 5vw, 48px);
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 4px;
+    letter-spacing: -0.01em;
+  }
+  .meta {
+    color: var(--ink-soft);
+    font-size: 13px;
+    margin: 0 0 32px;
+  }
+  h2 {
+    font-size: 16px;
+    margin: 32px 0 8px;
+    color: var(--accent);
+  }
+  p, li {
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+</style>
+
+<main>
+  <h1>Terms of Service</h1>
+  <p class="meta">ClipForge &middot; last updated September 30, 2026</p>
+
+  <p>ClipForge is a personal, fan-run tool that clips highlights from a Twitch stream and posts short vertical videos to social platforms (YouTube Shorts, TikTok) on behalf of its operator. It is not affiliated with, endorsed by, or operated on behalf of Twitch, YouTube, or TikTok.</p>
+
+  <h2>What this tool does</h2>
+  <ul>
+    <li>Downloads short segments of a public stream VOD to identify highlight moments.</li>
+    <li>Renders those segments into vertical video clips with captions.</li>
+    <li>With the operator's explicit review and approval, uploads approved clips to the operator's own YouTube and TikTok accounts.</li>
+  </ul>
+
+  <h2>Content</h2>
+  <p>All content posted through this tool is sourced from publicly broadcast stream footage. Posts are labeled as fan-run content and are not represented as official channel content.</p>
+
+  <h2>No warranty</h2>
+  <p>This tool is operated for personal, non-commercial use. It is provided as-is, with no guarantee of uptime, accuracy, or availability.</p>
+
+  <h2>Changes</h2>
+  <p>These terms may be updated at any time as the tool's functionality changes.</p>
+
+  <footer>Questions about this tool can be directed to its operator.</footer>
+</main>
